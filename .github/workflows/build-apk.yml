@@ -29,7 +29,7 @@ jobs:
       - name: Extraer proyecto
         run: |
           mkdir proyecto
-          unzip -q Reposicion-APK-corregido.zip -d proyecto
+          unzip -q Reposicion-APK-foto-corregida.zip -d proyecto
 
       - name: Compilar APK
         working-directory: proyecto
